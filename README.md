@@ -1,4 +1,4 @@
-# SAGA for Logseq.
+# SAGA for Logseq
 
 A dark theme for [Logseq](https://logseq.com/).
 
