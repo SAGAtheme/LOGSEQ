@@ -1,6 +1,6 @@
 # SAGA for Logseq.
 
-A dark theme for Logseq.
+A dark theme for [Logseq](https://logseq.com/).
 
 ![Screenshot](./screenshot.png) </br>
 
