@@ -5,8 +5,8 @@ A dark theme for [Logseq](https://logseq.com/).
 ![Screenshot](./screenshot.png) </br>
 
 ## Installation
-`wget https://raw.githubusercontent.com/SAGAtheme/LOGSEQ/master/custom.css` </br>
-Move the custom.css file into the logseq folder in your vault. 
+1. `wget https://raw.githubusercontent.com/SAGAtheme/LOGSEQ/master/custom.css` </br>
+2. Move the custom.css file into the logseq folder in your vault. 
 
 
 ## Notes
