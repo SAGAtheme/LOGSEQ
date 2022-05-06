@@ -4,28 +4,28 @@
   --lighter-background: #0A0D0F;
   --dark-background: #0A0D0F;
   --darker-background: #0A0D0F;
-  --foreground: #FFFFFE; 
-  --current-line: #181F25;
-  --comment: #202931;
+  --foreground: #FFFCFF;
+  --current-line: #141719;
+  --comment: #191C1E;
   --white: var(--foreground);
-  --white-hover: #FFFFFE80;
-  --red: #FF9E99;
-  --orange: #FAC898;
-  --yellow: #FFFAAD;
+  --white-hover: #FFFCFF80;
+  --red: #FFB2AD;
+  --orange: #FFDCAC;
+  --yellow: #FFFFC1;
   --green: #B4F8C8;
-  --purple: #BCA7DD;
-  --purple-hover: #BCA7DD80;
-  --cyan: #A0E7E5;
-  --cyan-hover: #A0E7E580;
-  --pink: #FFAEBC;
-  --pink-hover: #FFAEBC80;
+  --purple: #D2C5E8;
+  --purple-hover: #D2C5E880;
+  --cyan: #BFFBF9;
+  --cyan-hover: #BFFBF980;
+  --pink: #FFBDCB;
+  --pink-hover: #FFBDCB80;
 
   --ls-tag-text-opacity: 0.8;
   --ls-tag-text-hover-opacity: 0.8;
   --ls-page-text-size: 16px;
   --ls-page-title-size: 36px;
-  --ls-font-family: "Iosevka Heavy";
-  --ls-font-weight: 300;
+  --ls-font-family: "Iosevka Nerd Font", "Iosevka";
+  --ls-font-weight: 700;
   --ls-font-letter-spacing: 0.002em;
   --ls-font-line-height: 1.5;
 
@@ -133,7 +133,7 @@ mark {
   background-color: var(--red);
 }
 
-.dark-theme .form-checkbox {
+.form-checkbox {
   border: 1px solid var(--ls-page-checkbox-border-color) !important;
   border-radius: var(--ls-border-radius-low) !important;
 }
@@ -155,7 +155,7 @@ h1.title,
 .ls-block h4,
 .ls-block h5,
 .ls-block h6 {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /* Priority tag styling */
@@ -188,7 +188,7 @@ a.priority[href="#/page/C"]:before {
 
 a.priority:before {
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 700;
   padding: 1px 4px 0px 3px;
   margin: 0px 2px 0px 0px;
   border-radius: var(--ls-border-radius-low);
@@ -217,7 +217,7 @@ a.tag {
   border-radius: 3px 3px 3px 3px;
   padding: 0px 3px;
   color: var(--dark-background);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 a.tag:hover {
@@ -225,20 +225,9 @@ a.tag:hover {
   color: (--purple);
 }
 
-/*
-
-    Name:       Dracula for CodeMirror
-    Author:     Michael Kaminsky (http://github.com/mkaminsky11)
-    Adapted by:    Sly Bouhafs
-
-
-    Original dracula color scheme by Zeno Rocha (https://github.com/zenorocha/dracula-theme)
-    Adapted for logseq
-
-*/
 
 html[data-theme="dark"] .CodeMirror {
-  font-family: "FiraCode Nerd Font", "Fire Code", monospace;
+  font-family: "Iosevka Nerd Font","Iosevka", monospace;
   line-height: 1.2;
   background: var(--background);
   box-shadow: none;
