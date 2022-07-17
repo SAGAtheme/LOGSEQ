@@ -24,7 +24,7 @@
   --ls-tag-text-hover-opacity: 0.8;
   --ls-page-text-size: 16px;
   --ls-page-title-size: 36px;
-  --ls-font-family: "Iosevka Nerd Font", "Iosevka";
+  --ls-font-family: "SAGA Heavy", "SAGA Heavy";
   --ls-font-weight: 700;
   --ls-font-letter-spacing: 0.002em;
   --ls-font-line-height: 1.5;
@@ -227,7 +227,7 @@ a.tag:hover {
 
 
 html[data-theme="dark"] .CodeMirror {
-  font-family: "Iosevka Nerd Font","Iosevka", monospace;
+  font-family: "SAGA Heavy","SAGA Heavy", monospace;
   line-height: 1.2;
   background: var(--background);
   box-shadow: none;
